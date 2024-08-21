@@ -35,7 +35,7 @@ CLONE_DB_URI = environ.get("CLONE_DB_URI", "")
 CDB_NAME = environ.get("CDB_NAME", "clonetechvj")
 
 # Database Information
-DB_URI = environ.get("DB_URI", "")
+DB_URI = environ.get("DB_URI", "mongodb+srv://sachinyadav1621990:96KI1ZHyNoe6g41D@cluster0.zjnpl.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 DB_NAME = environ.get("DB_NAME", "techvjbotz")
 
 # Auto Delete Information
@@ -64,13 +64,13 @@ SHORTLINK_API = environ.get("SHORTLINK_API", "hRPS5vvZc0OGOEUQJMJzPiojoVK2") # s
 VERIFY_TUTORIAL = environ.get("VERIFY_TUTORIAL", "https://t.me/How_To_Open_Linkl") # how to open link 
 
 # Website Info:
-WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', False)) # Set True or False
+WEBSITE_URL_MODE = bool(environ.get('WEBSITE_URL_MODE', True)) # Set True or False
 
 # If Website Url Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-WEBSITE_URL = environ.get("WEBSITE_URL", "") # For More Information Check Video On Yt - @Tech_VJ
+WEBSITE_URL = environ.get("WEBSITE_URL", "https://symoviez.blogspot.com/2024/07/symoviez.html") # For More Information Check Video On Yt - @Tech_VJ
 
 # File Stream Config
-STREAM_MODE = bool(environ.get('STREAM_MODE', False)) # Set True or False
+STREAM_MODE = bool(environ.get('STREAM_MODE', True)) # Set True or False
 
 # If Stream Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 MULTI_CLIENT = False
@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
